@@ -1,12 +1,10 @@
 # ==============================================================================
 # Release Artifacts & Generated Outputs (Do NOT commit built packages/reports)
 # ==============================================================================
-dist/
 *.mcpack
 *.mcaddon
 *.mctemplate
 *.mcworld
-spec_verification_report.html
 
 # ==============================================================================
 # .NET / C# Build Outputs & NuGet Caches (Contain local machine/user paths)
