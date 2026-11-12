@@ -1,0 +1,33 @@
+{
+  "namespace": "trade2_pocket",
+
+  "tier_stack_panel": {
+    "visible": true,
+    "bindings": [
+      {
+        "binding_type": "collection_details",
+        "binding_collection_name": "trade_tiers"
+      }
+    ]
+  },
+
+  "trade_toggle": {
+    "$toggle_enabled_binding_type": "none",
+    "enabled": true
+  },
+
+  "single_item_grid": {
+    "enabled": true
+  },
+
+  "single_item_slot": {
+    "enabled": true
+  },
+
+  "hover_button": {
+    "enabled": true,
+    "visible": true,
+    "consume_event": false,
+    "consume_hover_events": true
+  }
+}

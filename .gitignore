@@ -1,0 +1,59 @@
+# ==============================================================================
+# Release Artifacts & Generated Outputs (Do NOT commit built packages/reports)
+# ==============================================================================
+dist/
+*.mcpack
+*.mcaddon
+*.mctemplate
+*.mcworld
+spec_verification_report.html
+
+# ==============================================================================
+# .NET / C# Build Outputs & NuGet Caches (Contain local machine/user paths)
+# ==============================================================================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+project.lock.json
+project.fragment.lock.json
+*.nupkg
+*.snupkg
+
+# ==============================================================================
+# IDE / Editor / AI Assistant Local State
+# ==============================================================================
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.gemini/
+.antigravity/
+.claude/
+.cursor/
+.aider*
+
+# ==============================================================================
+# Secrets, Certificates, OS Metadata & Temporary Files
+# ==============================================================================
+.env
+.env.*
+*.pfx
+*.key
+*.pem
+*.cer
+[Tt]humbs.db
+ehthumbs.db
+[Dd]esktop.ini
+.DS_Store
+*.tmp
+*.bak
+*.orig

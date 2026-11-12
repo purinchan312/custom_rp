@@ -1,0 +1,88 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.rp02_chunk_visualizer": {
+      "geometry": "Geometry.rp02_chunk_visualizer",
+      "materials": [
+        { "*": "Material.rp02_wire" }
+      ],
+      "textures": [
+        "Texture.rp02_palette"
+      ]
+    },
+
+    "controller.render.rp02_sphere_safe": {
+      "geometry": "Geometry.rp02_sphere_safe",
+      "materials": [
+        { "*": "Material.rp02_wire" }
+      ],
+      "textures": [
+        "Texture.rp02_palette"
+      ]
+    },
+
+    "controller.render.rp02_sphere_spawn_upper": {
+      "geometry": "Geometry.rp02_sphere_spawn_upper",
+      "materials": [
+        { "*": "Material.rp02_wire" }
+      ],
+      "textures": [
+        "Texture.rp02_palette"
+      ]
+    },
+
+    "controller.render.rp02_sphere_spawn_mid": {
+      "geometry": "Geometry.rp02_sphere_spawn_mid",
+      "materials": [
+        { "*": "Material.rp02_wire" }
+      ],
+      "textures": [
+        "Texture.rp02_palette"
+      ]
+    },
+
+    "controller.render.rp02_sphere_spawn_lower": {
+      "geometry": "Geometry.rp02_sphere_spawn_lower",
+      "materials": [
+        { "*": "Material.rp02_wire" }
+      ],
+      "textures": [
+        "Texture.rp02_palette"
+      ]
+    },
+
+    "controller.render.rp02_globe_meridians": {
+      "geometry": "Geometry.rp02_globe_meridians",
+      "materials": [
+        { "*": "Material.rp02_wire" }
+      ],
+      "textures": [
+        "Texture.rp02_palette"
+      ]
+    },
+
+    "controller.render.rp02_chunk_visualizer_zone": {
+      "geometry": "Geometry.rp02_floor_zones",
+      "materials": [
+        { "*": "Material.rp02_zone" }
+      ],
+      "textures": [
+        "Texture.rp02_palette"
+      ]
+    },
+
+    "controller.render.rp02_mode_label": {
+      "geometry": "Geometry.rp02_mode_label",
+      "materials": [
+        { "*": "Material.rp02_label" }
+      ],
+      "textures": [
+        "Texture.rp02_labels"
+      ],
+      "uv_anim": {
+        "offset": [0.0, "v.rp02_mode * 0.25"],
+        "scale": [1.0, 0.25]
+      }
+    }
+  }
+}

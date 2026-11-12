@@ -1,0 +1,262 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.rp01_hud_static": {
+      "geometry": "Geometry.rp01_hud_static",
+      "materials": [
+        { "*": "Material.rp01_hud_static" }
+      ],
+      "textures": [
+        "Texture.rp01_glyph"
+      ]
+    },
+
+    "controller.render.rp01_hud_readout": {
+      "geometry": "Geometry.rp01_hud_readout",
+      "part_visibility": [
+        { "*": false },
+        { "rx_d0": true }
+      ],
+      "materials": [
+        { "*": "Material.rp01_hud_sprite" }
+      ],
+      "textures": [
+        "Texture.rp01_glyph"
+      ],
+      "uv_anim": {
+        "offset": [0.0, "v.rp01_rx_d0 * 0.03125"],
+        "scale": [1.0, 0.03125]
+      }
+    },
+
+    "controller.render.rp01_hud_rz_d0": {
+      "geometry": "Geometry.rp01_hud_readout",
+      "part_visibility": [
+        { "*": false },
+        { "rz_d0": true }
+      ],
+      "materials": [
+        { "*": "Material.rp01_hud_sprite" }
+      ],
+      "textures": [
+        "Texture.rp01_glyph"
+      ],
+      "uv_anim": {
+        "offset": [0.0, "v.rp01_rz_d0 * 0.03125"],
+        "scale": [1.0, 0.03125]
+      }
+    },
+
+    "controller.render.rp01_hud_cx_d4": {
+      "geometry": "Geometry.rp01_hud_readout",
+      "part_visibility": [
+        { "*": false },
+        { "cx_d4": true }
+      ],
+      "materials": [
+        { "*": "Material.rp01_hud_sprite" }
+      ],
+      "textures": [
+        "Texture.rp01_glyph"
+      ],
+      "uv_anim": {
+        "offset": [0.0, "v.rp01_cx_d4 * 0.03125"],
+        "scale": [1.0, 0.03125]
+      }
+    },
+
+    "controller.render.rp01_hud_cx_d3": {
+      "geometry": "Geometry.rp01_hud_readout",
+      "part_visibility": [
+        { "*": false },
+        { "cx_d3": true }
+      ],
+      "materials": [
+        { "*": "Material.rp01_hud_sprite" }
+      ],
+      "textures": [
+        "Texture.rp01_glyph"
+      ],
+      "uv_anim": {
+        "offset": [0.0, "v.rp01_cx_d3 * 0.03125"],
+        "scale": [1.0, 0.03125]
+      }
+    },
+
+    "controller.render.rp01_hud_cx_d2": {
+      "geometry": "Geometry.rp01_hud_readout",
+      "part_visibility": [
+        { "*": false },
+        { "cx_d2": true }
+      ],
+      "materials": [
+        { "*": "Material.rp01_hud_sprite" }
+      ],
+      "textures": [
+        "Texture.rp01_glyph"
+      ],
+      "uv_anim": {
+        "offset": [0.0, "v.rp01_cx_d2 * 0.03125"],
+        "scale": [1.0, 0.03125]
+      }
+    },
+
+    "controller.render.rp01_hud_cx_d1": {
+      "geometry": "Geometry.rp01_hud_readout",
+      "part_visibility": [
+        { "*": false },
+        { "cx_d1": true }
+      ],
+      "materials": [
+        { "*": "Material.rp01_hud_sprite" }
+      ],
+      "textures": [
+        "Texture.rp01_glyph"
+      ],
+      "uv_anim": {
+        "offset": [0.0, "v.rp01_cx_d1 * 0.03125"],
+        "scale": [1.0, 0.03125]
+      }
+    },
+
+    "controller.render.rp01_hud_cx_d0": {
+      "geometry": "Geometry.rp01_hud_readout",
+      "part_visibility": [
+        { "*": false },
+        { "cx_d0": true }
+      ],
+      "materials": [
+        { "*": "Material.rp01_hud_sprite" }
+      ],
+      "textures": [
+        "Texture.rp01_glyph"
+      ],
+      "uv_anim": {
+        "offset": [0.0, "v.rp01_cx_d0 * 0.03125"],
+        "scale": [1.0, 0.03125]
+      }
+    },
+
+    "controller.render.rp01_hud_cz_d4": {
+      "geometry": "Geometry.rp01_hud_readout",
+      "part_visibility": [
+        { "*": false },
+        { "cz_d4": true }
+      ],
+      "materials": [
+        { "*": "Material.rp01_hud_sprite" }
+      ],
+      "textures": [
+        "Texture.rp01_glyph"
+      ],
+      "uv_anim": {
+        "offset": [0.0, "v.rp01_cz_d4 * 0.03125"],
+        "scale": [1.0, 0.03125]
+      }
+    },
+
+    "controller.render.rp01_hud_cz_d3": {
+      "geometry": "Geometry.rp01_hud_readout",
+      "part_visibility": [
+        { "*": false },
+        { "cz_d3": true }
+      ],
+      "materials": [
+        { "*": "Material.rp01_hud_sprite" }
+      ],
+      "textures": [
+        "Texture.rp01_glyph"
+      ],
+      "uv_anim": {
+        "offset": [0.0, "v.rp01_cz_d3 * 0.03125"],
+        "scale": [1.0, 0.03125]
+      }
+    },
+
+    "controller.render.rp01_hud_cz_d2": {
+      "geometry": "Geometry.rp01_hud_readout",
+      "part_visibility": [
+        { "*": false },
+        { "cz_d2": true }
+      ],
+      "materials": [
+        { "*": "Material.rp01_hud_sprite" }
+      ],
+      "textures": [
+        "Texture.rp01_glyph"
+      ],
+      "uv_anim": {
+        "offset": [0.0, "v.rp01_cz_d2 * 0.03125"],
+        "scale": [1.0, 0.03125]
+      }
+    },
+
+    "controller.render.rp01_hud_cz_d1": {
+      "geometry": "Geometry.rp01_hud_readout",
+      "part_visibility": [
+        { "*": false },
+        { "cz_d1": true }
+      ],
+      "materials": [
+        { "*": "Material.rp01_hud_sprite" }
+      ],
+      "textures": [
+        "Texture.rp01_glyph"
+      ],
+      "uv_anim": {
+        "offset": [0.0, "v.rp01_cz_d1 * 0.03125"],
+        "scale": [1.0, 0.03125]
+      }
+    },
+
+    "controller.render.rp01_hud_cz_d0": {
+      "geometry": "Geometry.rp01_hud_readout",
+      "part_visibility": [
+        { "*": false },
+        { "cz_d0": true }
+      ],
+      "materials": [
+        { "*": "Material.rp01_hud_sprite" }
+      ],
+      "textures": [
+        "Texture.rp01_glyph"
+      ],
+      "uv_anim": {
+        "offset": [0.0, "v.rp01_cz_d0 * 0.03125"],
+        "scale": [1.0, 0.03125]
+      }
+    },
+
+    "controller.render.rp01_hud_edge": {
+      "geometry": "Geometry.rp01_hud_readout",
+      "part_visibility": [
+        { "*": false },
+        { "edge_label": true }
+      ],
+      "materials": [
+        { "*": "Material.rp01_hud_sprite" }
+      ],
+      "textures": [
+        "Texture.rp01_glyph"
+      ],
+      "uv_anim": {
+        "offset": [0.0, "v.rp01_edge_row * 0.03125"],
+        "scale": [1.0, 0.03125]
+      }
+    },
+
+    "controller.render.rp01_hud_biome": {
+      "geometry": "Geometry.rp01_hud_biome",
+      "materials": [
+        { "*": "Material.rp01_hud_sprite" }
+      ],
+      "textures": [
+        "Texture.rp01_biome"
+      ],
+      "uv_anim": {
+        "offset": [0.0, "v.rp01_biome_idx * 0.015625"],
+        "scale": [1.0, 0.015625]
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "8f4a2c91-6e15-4b7d-9a30-1c5d7e9b2f04",
+    "version": [1, 0, 4],
+    "min_engine_version": [1, 21, 130]
+  },
+  "modules": [
+    {
+      "description": "pack.description",
+      "type": "resources",
+      "uuid": "3d91b7e2-5c48-49a1-8e62-7f0a3c4d9e18",
+      "version": [1, 0, 4]
+    }
+  ],
+  "subpacks": [
+    {
+      "folder_name": "hud_and_ui_only",
+      "name": "subpack.hud_and_ui_only.name",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "full",
+      "name": "subpack.full.name",
+      "memory_tier": 1
+    }
+  ]
+}

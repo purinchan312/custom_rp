@@ -1,0 +1,98 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:armor_stand",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "armor_stand",
+        "rp02_wire": "rp02_wire_emissive",
+        "rp02_zone": "rp02_zone_translucent",
+        "rp02_label": "rp02_label_emissive"
+      },
+      "textures": {
+        "default": "textures/entity/armor_stand",
+        "rp02_palette": "textures/rp_custom/rp02_visualizer_palette",
+        "rp02_labels": "textures/rp_custom/rp02_mode_labels"
+      },
+      "animations": {
+        "default_pose": "animation.armor_stand.default_pose",
+        "no_pose": "animation.armor_stand.no_pose",
+        "solemn_pose": "animation.armor_stand.solemn_pose",
+        "athena_pose": "animation.armor_stand.athena_pose",
+        "brandish_pose": "animation.armor_stand.brandish_pose",
+        "honor_pose": "animation.armor_stand.honor_pose",
+        "entertain_pose": "animation.armor_stand.entertain_pose",
+        "salute_pose": "animation.armor_stand.salute_pose",
+        "riposte_pose": "animation.armor_stand.riposte_pose",
+        "zombie_pose": "animation.armor_stand.zombie_pose",
+        "cancan_a_pose": "animation.armor_stand.cancan_a_pose",
+        "cancan_b_pose": "animation.armor_stand.cancan_b_pose",
+        "hero_pose": "animation.armor_stand.hero_pose",
+        "wiggle": "animation.armor_stand.wiggle",
+        "controller.pose": "controller.animation.armor_stand.pose",
+        "controller.wiggling": "controller.animation.armor_stand.wiggle",
+        "holding_heavy_core": "animation.armor_stand.holding_heavy_core",
+        "controller.holding_heavy_core": "controller.animation.armor_stand.holding_heavy_core",
+        "rp02_visualizer_anim": "animation.rp02.chunk_visualizer"
+      },
+      "scripts": {
+        "initialize": [
+          "variable.armor_stand.pose_index = 0;",
+          "variable.armor_stand.hurt_time = 0;",
+          "v.rp02_mode = 0;"
+        ],
+        "pre_animation": [
+          "v.rp02_mode = (variable.armor_stand.pose_index >= 1 && variable.armor_stand.pose_index <= 2) ? math.round(variable.armor_stand.pose_index) : 0;"
+        ],
+        "animate": [
+          "controller.pose",
+          "controller.wiggling",
+          "controller.holding_heavy_core",
+          {
+            "rp02_visualizer_anim": "v.rp02_mode >= 1"
+          }
+        ]
+      },
+      "geometry": {
+        "default": "geometry.armor_stand",
+        "rp02_chunk_visualizer": "geometry.rp02_chunk_visualizer",
+        "rp02_sphere_safe": "geometry.rp02_sphere_safe",
+        "rp02_sphere_spawn_upper": "geometry.rp02_sphere_spawn_upper",
+        "rp02_sphere_spawn_mid": "geometry.rp02_sphere_spawn_mid",
+        "rp02_sphere_spawn_lower": "geometry.rp02_sphere_spawn_lower",
+        "rp02_globe_meridians": "geometry.rp02_globe_meridians",
+        "rp02_floor_zones": "geometry.rp02_floor_zones",
+        "rp02_mode_label": "geometry.rp02_mode_label"
+      },
+      "render_controllers": [
+        "controller.render.armor_stand",
+        {
+          "controller.render.rp02_chunk_visualizer": "v.rp02_mode >= 1"
+        },
+        {
+          "controller.render.rp02_sphere_safe": "v.rp02_mode == 2"
+        },
+        {
+          "controller.render.rp02_sphere_spawn_upper": "v.rp02_mode == 2"
+        },
+        {
+          "controller.render.rp02_sphere_spawn_mid": "v.rp02_mode == 2"
+        },
+        {
+          "controller.render.rp02_sphere_spawn_lower": "v.rp02_mode == 2"
+        },
+        {
+          "controller.render.rp02_globe_meridians": "v.rp02_mode == 2"
+        },
+        {
+          "controller.render.rp02_chunk_visualizer_zone": "v.rp02_mode == 2"
+        },
+        {
+          "controller.render.rp02_mode_label": "v.rp02_mode >= 1"
+        }
+      ],
+      "enable_attachables": true
+    }
+  }
+}

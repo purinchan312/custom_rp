@@ -1,0 +1,6 @@
+{
+  "ui_defs": [
+    "ui/modules/rp01_hud_chunk_panel.json",
+    "ui/modules/rp03_trade_unlock_common.json"
+  ]
+}

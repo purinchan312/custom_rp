@@ -1,0 +1,45 @@
+{
+  "namespace": "rp03_trade_unlock",
+
+  "tier_panel_force_visible": {
+    "visible": true,
+    "bindings": [
+      {
+        "binding_type": "collection_details",
+        "binding_collection_name": "trade_tiers"
+      }
+    ]
+  },
+
+  "trade_toggle_force_hoverable": {
+    "$toggle_enabled_binding_type": "none",
+    "enabled": true
+  },
+
+  "hover_button_force_enabled": {
+    "enabled": true,
+    "visible": true,
+    "consume_event": false,
+    "consume_hover_events": true
+  },
+
+  "locked_preview_badge": {
+    "type": "label",
+    "text": "rp03.trade.locked_label",
+    "color": [0.78, 0.78, 0.82],
+    "shadow": true,
+    "font_scale_factor": 0.85,
+    "bindings": [
+      {
+        "binding_type": "collection_details",
+        "binding_collection_name": "trade_tiers"
+      },
+      {
+        "binding_name": "(not #is_tier_unlocked)",
+        "binding_name_override": "#visible",
+        "binding_type": "collection",
+        "binding_collection_name": "trade_tiers"
+      }
+    ]
+  }
+}

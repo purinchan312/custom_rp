@@ -1,0 +1,43 @@
+{
+  "materials": {
+    "version": "1.0.0",
+
+    "rp01_hud_static:entity_alphatest": {
+      "+states": [
+        "DisableCulling"
+      ]
+    },
+
+    "rp01_hud_sprite:entity_alphatest": {
+      "+defines": [
+        "USE_UV_ANIM"
+      ],
+      "+states": [
+        "DisableCulling"
+      ]
+    },
+
+    "rp02_wire_emissive:entity_emissive_alpha": {
+      "+states": [
+        "DisableCulling"
+      ]
+    },
+
+    "rp02_label_emissive:entity_emissive_alpha": {
+      "+defines": [
+        "USE_UV_ANIM"
+      ],
+      "+states": [
+        "DisableCulling"
+      ]
+    },
+
+    "rp02_zone_translucent:entity_alphablend": {
+      "+states": [
+        "DisableCulling",
+        "Blending",
+        "DisableDepthWrite"
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "namespace": "hud",
+
+  "root_panel/chat_stack": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_before",
+        "control_name": "chat_panel",
+        "value": [
+          {
+            "rp01_hud_chunk_panel@rp01_hud_chunk.rp01_hud_chunk_wrapper": {}
+          }
+        ]
+      }
+    ]
+  }
+}

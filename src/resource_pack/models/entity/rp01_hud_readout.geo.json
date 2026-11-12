@@ -1,0 +1,874 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.rp01_hud_static",
+        "texture_width": 64,
+        "texture_height": 512,
+        "visible_bounds_width": 160,
+        "visible_bounds_height": 160,
+        "visible_bounds_offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "rp01_yaw_cancel",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "rp01_hud_panel_root",
+          "parent": "rp01_yaw_cancel",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "rx_d1",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                14,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    16
+                  ],
+                  "uv_size": [
+                    7,
+                    16
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "sep_comma1",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                18,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    176
+                  ],
+                  "uv_size": [
+                    9,
+                    16
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "rz_d1",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                14,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    16
+                  ],
+                  "uv_size": [
+                    7,
+                    16
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "sep_open",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                22,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    192
+                  ],
+                  "uv_size": [
+                    11,
+                    16
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "cx_sign",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                14,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    160
+                  ],
+                  "uv_size": [
+                    7,
+                    16
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "sep_comma2",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                18,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    176
+                  ],
+                  "uv_size": [
+                    9,
+                    16
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "cz_sign",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                14,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    160
+                  ],
+                  "uv_size": [
+                    7,
+                    16
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "sep_close",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                12,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    208
+                  ],
+                  "uv_size": [
+                    6,
+                    16
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": {
+        "identifier": "geometry.rp01_hud_readout",
+        "texture_width": 64,
+        "texture_height": 512,
+        "visible_bounds_width": 160,
+        "visible_bounds_height": 160,
+        "visible_bounds_offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "rp01_yaw_cancel",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "rp01_hud_panel_root",
+          "parent": "rp01_yaw_cancel",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "rx_d0",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                14,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    7,
+                    512
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "rz_d0",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                14,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    7,
+                    512
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "cx_d4",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                14,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    7,
+                    512
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "cx_d3",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                14,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    7,
+                    512
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "cx_d2",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                14,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    7,
+                    512
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "cx_d1",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                14,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    7,
+                    512
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "cx_d0",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                14,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    7,
+                    512
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "cz_d4",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                14,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    7,
+                    512
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "cz_d3",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                14,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    7,
+                    512
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "cz_d2",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                14,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    7,
+                    512
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "cz_d1",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                14,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    7,
+                    512
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "cz_d0",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                14,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    7,
+                    512
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "edge_label",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -32,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -32,
+                -1
+              ],
+              "size": [
+                128,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    64,
+                    512
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": {
+        "identifier": "geometry.rp01_hud_biome",
+        "texture_width": 256,
+        "texture_height": 1024,
+        "visible_bounds_width": 160,
+        "visible_bounds_height": 160,
+        "visible_bounds_offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "rp01_yaw_cancel",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "rp01_hud_panel_root",
+          "parent": "rp01_yaw_cancel",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "biome_label",
+          "parent": "rp01_hud_panel_root",
+          "pivot": [
+            0,
+            -64,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                0,
+                -64,
+                -1
+              ],
+              "size": [
+                320,
+                32,
+                0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    0,
+                    0
+                  ],
+                  "uv_size": [
+                    160,
+                    1024
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

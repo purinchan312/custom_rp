@@ -1,0 +1,51 @@
+{
+  "namespace": "rp01_hud_chunk",
+
+  "rp01_hud_chunk_wrapper": {
+    "type": "panel",
+    "size": ["100%", 27],
+    "controls": [
+      {
+        "rp01_hud_plate": {
+          "type": "image",
+          "texture": "textures/ui/Black",
+          "alpha": 0.55,
+          "size": [178, 26],
+          "offset": [0, 1],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "layer": 1
+        }
+      },
+      {
+        "rp01_hud_viewport": {
+          "type": "panel",
+          "size": [178, 26],
+          "offset": [0, 1],
+          "clips_children": true,
+          "allow_clipping": true,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "layer": 4,
+          "controls": [
+            {
+              "rp01_hud_player_projection": {
+                "type": "custom",
+                "renderer": "live_player_renderer",
+                "property_bag": {
+                  "#look_at_cursor": false
+                },
+                "allow_clipping": true,
+                "size": [6, 6],
+                "offset": [177, -5],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "layer": 4
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

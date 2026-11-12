@@ -1,0 +1,28 @@
+## ============================================================================
+## Core Pack Metadata (rp_specs/00_RP_ARCHITECTURE.md)
+## ============================================================================
+pack.name=Unified Utility RP (Chunk HUD, Spawn Visualizer & Trade Viewer)
+pack.description=100%% Achievements ON: Always-on Chunk & Biome HUD, Armor Stand 3D Chunk/Spawn Ranges, and Villager Lv1-Lv5 Trade Preview
+subpack.full.name=Full Mode (Chunk & Biome HUD + Armor Stand 3D Visualizer + Trade Preview)
+subpack.hud_and_ui_only.name=Lightweight Mode (HUD + Trade Preview Only / 3D Visualizer OFF)
+
+## ============================================================================
+## RP01: Always-on Chunk Coordinates & Biome Name HUD (rp_01_hud.md)
+## ============================================================================
+rp01.hud.edge.line= : Edge
+rp01.hud.edge.top_left= : NW Corner
+rp01.hud.edge.top_right= : NE Corner
+rp01.hud.edge.bottom_left= : SW Corner
+rp01.hud.edge.bottom_right= : SE Corner
+rp01.hud.biome.fallback=Other Biome
+
+## ============================================================================
+## RP02: Armor Stand 3D Chunk & Mob Spawn Range Visualizer (rp_02.md)
+## ============================================================================
+rp02.mode.1=[1] Chunk Boundary Cage
+rp02.mode.2=[2] Chunk + Spawn Range (24m Safe / 44m Spawn)
+
+## ============================================================================
+## RP03: Villager All-Tier (Lv1-Lv5) Trade Preview (rp_03.md)
+## ============================================================================
+rp03.trade.locked_label=(Locked Preview)

@@ -1,0 +1,206 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.rp01.hud_readout": {
+      "loop": true,
+      "bones": {
+        "rp01_yaw_cancel": {
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "scale": "(q.is_in_ui || v.is_paperdoll) ? (16.0 / 15.0) : 0.0"
+        },
+        "rp01_hud_panel_root": {
+          "position": [
+            -468,
+            0,
+            0
+          ]
+        },
+        "rx_d1": {
+          "position": [
+            "v.rp01_x_rx_d1",
+            0,
+            0
+          ],
+          "scale": "v.rp01_rx_ge10"
+        },
+        "rx_d0": {
+          "position": [
+            "v.rp01_x_rx_d0",
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "sep_comma1": {
+          "position": [
+            "v.rp01_x_comma1",
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "rz_d1": {
+          "position": [
+            "v.rp01_x_rz_d1",
+            0,
+            0
+          ],
+          "scale": "v.rp01_rz_ge10"
+        },
+        "rz_d0": {
+          "position": [
+            "v.rp01_x_rz_d0",
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "sep_open": {
+          "position": [
+            "v.rp01_x_open",
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "cx_sign": {
+          "position": [
+            "v.rp01_x_cx_sign",
+            0,
+            0
+          ],
+          "scale": "v.rp01_cx_neg"
+        },
+        "cx_d4": {
+          "position": [
+            "v.rp01_x_cx_d4",
+            0,
+            0
+          ],
+          "scale": "v.rp01_cx_s4"
+        },
+        "cx_d3": {
+          "position": [
+            "v.rp01_x_cx_d3",
+            0,
+            0
+          ],
+          "scale": "v.rp01_cx_s3"
+        },
+        "cx_d2": {
+          "position": [
+            "v.rp01_x_cx_d2",
+            0,
+            0
+          ],
+          "scale": "v.rp01_cx_s2"
+        },
+        "cx_d1": {
+          "position": [
+            "v.rp01_x_cx_d1",
+            0,
+            0
+          ],
+          "scale": "v.rp01_cx_s1"
+        },
+        "cx_d0": {
+          "position": [
+            "v.rp01_x_cx_d0",
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "sep_comma2": {
+          "position": [
+            "v.rp01_x_comma2",
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "cz_sign": {
+          "position": [
+            "v.rp01_x_cz_sign",
+            0,
+            0
+          ],
+          "scale": "v.rp01_cz_neg"
+        },
+        "cz_d4": {
+          "position": [
+            "v.rp01_x_cz_d4",
+            0,
+            0
+          ],
+          "scale": "v.rp01_cz_s4"
+        },
+        "cz_d3": {
+          "position": [
+            "v.rp01_x_cz_d3",
+            0,
+            0
+          ],
+          "scale": "v.rp01_cz_s3"
+        },
+        "cz_d2": {
+          "position": [
+            "v.rp01_x_cz_d2",
+            0,
+            0
+          ],
+          "scale": "v.rp01_cz_s2"
+        },
+        "cz_d1": {
+          "position": [
+            "v.rp01_x_cz_d1",
+            0,
+            0
+          ],
+          "scale": "v.rp01_cz_s1"
+        },
+        "cz_d0": {
+          "position": [
+            "v.rp01_x_cz_d0",
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "sep_close": {
+          "position": [
+            "v.rp01_x_close",
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "edge_label": {
+          "position": [
+            "v.rp01_x_edge",
+            0,
+            0
+          ],
+          "scale": "v.rp01_edge_vis"
+        },
+        "biome_label": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        }
+      }
+    }
+  }
+}
